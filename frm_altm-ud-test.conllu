@@ -315,7 +315,7 @@
 9	à	à	ADP	_	_	10	case	_	gold_pos=ADP|prpos=S|uppos=P
 10	aucun	aucun	PRON	_	PronType=Ind	8	obl	_	gold_pos=PRON|prpos=Pi|uppos=PRO
 11	contre	contre	ADP	_	_	12	case	_	gold_pos=ADP|prpos=S|uppos=P
-12	autre	autre	PRON	_	PronType=Ind	10	obl	_	gold_pos=PRON|prpos=Pi|uppos=PRO
+12	autre	autre	PRON	_	PronType=Ind	10	nmod	_	gold_pos=PRON|prpos=Pi|uppos=PRO
 13	à	à	ADP	_	_	15	case	_	gold_pos=ADP|prpos=S|uppos=P
 14	tout	tout	DET	_	PronType=Ind	15	det	_	gold_pos=DET|prpos=Di|uppos=D
 15	ce	ce	PRON	_	PronType=Dem	8	obl	_	gold_pos=PRON|prpos=Pd|uppos=PRO
@@ -357,7 +357,7 @@
 7	pas	pas	ADV	_	PronType=Neg	8	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADVNEG
 8	généraulx	général	NOUN	_	Number=Plur	3	acl:relcl	_	gold_pos=NOUNS|prpos=Nc|SpaceAfter=No|uppos=NCPL
 9	;	;	PUNCT	_	_	8	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
-10	P.	primo	ADV	_	_	12	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=Fw
+10	P.	primo	ADV	_	_	12	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|uppos=Fw
 11	en	en	ADP	_	_	12	case	_	gold_pos=ADP|prpos=S|uppos=P
 12	cas	cas	NOUN	_	Number=Sing	3	appos	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 13	d'	de	ADP	_	_	14	case	_	gold_pos=ADP|prpos=S|uppos=P
@@ -557,7 +557,7 @@
 205	de	de	ADP	_	_	207	case	_	gold_pos=ADP|prpos=S|uppos=P
 206	loyal	loyal	ADJ	_	_	207	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
 207	devise	devise	NOUN	_	Number=Sing	204	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-208	que	que	SCONJ	_	PronType=Rel	211	obj	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
+208	que	que	PRON	_	PronType=Rel	211	obj	_	gold_pos=PRON|prpos=Pr|uppos=WPRO
 209	l'	le	DET	_	Definite=Def|PronType=Art	210	det	_	gold_pos=DET|prpos=Da|uppos=D
 210	en	on	PRON	_	PronType=Prs	211	nsubj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 211	dit	dire	VERB	_	Tense=Past|VerbForm=Part	204	acl:relcl	_	gold_pos=VERB|prpos=Ge|uppos=VPP
@@ -807,7 +807,7 @@
 13	cas	cas	NOUN	_	Number=Sing	11	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 14	héréditaulx	hérédital	ADJ	_	_	13	amod	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
 15	:	:	PUNCT	_	_	11	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-16	primo	primo	ADV	_	_	18	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=Fw
+16	primo	primo	ADV	_	_	18	advmod	_	gold_pos=ADV|Lang=La|prpos=Xe|uppos=Fw
 17	sur	sur	ADP	_	_	18	case	_	gold_pos=ADP|prpos=S|uppos=P
 18	brief	bref	NOUN	_	Number=Sing	11	appos	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 19	de	de	ADP	_	_	21	case	_	gold_pos=ADP|prpos=S|uppos=P
@@ -1430,7 +1430,7 @@
 13	treuve	trouver	VERB	_	Number=Sing|Person=3|VerbForm=Fin	4	conj	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
 14	Reus	reus	NOUN	_	Number=Sing	13	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 15	en	en	ADP	_	_	16	case	_	gold_pos=ADP|prpos=S|uppos=P
-16	personne	personne	NOUN	_	Number=Sing	14	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+16	personne	personne	NOUN	_	Number=Sing	13	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 17	quelque	quelque	DET	_	PronType=Ind	18	det	_	gold_pos=DET|prpos=Di|uppos=D
 18	part	part	NOUN	_	Number=Sing	13	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 19	que	que	SCONJ	_	_	21	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
@@ -1700,9 +1700,9 @@
 # tags = latin
 # text = ou vel sic, je le contraing et justice pour venir sauver.
 1	ou	ou	CCONJ	_	_	7	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-2	vel	vel	ADV	_	_	3	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=FW
-3	sic	sic	ADV	_	_	7	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
-4	,	,	PUNCT	_	_	3	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
+2	vel	vel	ADV	_	_	3	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|uppos=FW
+3	sic	sic	ADV	_	_	7	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
+4	,	,	PUNCT	_	_	7	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 5	je	je	PRON	_	PronType=Prs	7	nsubj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 6	le	il	PRON	_	PronType=Prs	7	obj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 7	contraing	contraindre	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
@@ -1858,8 +1858,8 @@
 # sent_id = 1425_Style_1_3_1_3_4
 # text = Si primo, incontinent que le cas est venu à ma congnoissance, je le doy envoyer prendre, s' il est trouvé, sinon, adjourner à son hostel, présens plusieurs à haulte voys, et declairer le cas à comparoir à la prouchaine assise du lieu et aux aultres en suivant sur paine de banissement.
 # tags = latin
-1	Si	si	ADV	_	_	2	advmod	_	gold_pos=SCONJ|Lang=lat|prpos=Xe|uppos=FW
-2	primo	primo	ADV	_	_	17	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+1	Si	si	ADV	_	_	2	advmod	_	gold_pos=SCONJ|Lang=la|prpos=Xe|uppos=FW
+2	primo	primo	ADV	_	_	17	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 3	,	,	PUNCT	_	_	2	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 4	incontinent	incontinent	ADV	_	ExtPos=SCONJ	9	mark	_	gold_pos=ADV|prpos=Rg|uppos=ADV
 5	que	que	SCONJ	_	_	4	fixed	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
@@ -2007,14 +2007,14 @@
 23	par	par	ADP	_	_	24	case	_	gold_pos=ADP|prpos=S|uppos=P
 24	contrainte	contrainte	NOUN	_	Number=Sing	22	nmod	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
 25	,	,	PUNCT	_	_	28	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-26	ut	ut	ADP	_	_	28	case	_	gold_pos=ADP|Lang=lat|prpos=Xe|uppos=FW
-27	in	in	ADP	_	_	28	case	_	gold_pos=ADP|Lang=lat|prpos=Xe|uppos=FW
-28	cappitulo	capitulum	NOUN	_	_	20	obl	_	gold_pos=NOUN|Lang=lat|prpos=Xe|uppos=FW
+26	ut	ut	ADP	_	_	28	case	_	gold_pos=ADP|Lang=la|prpos=Xe|uppos=FW
+27	in	in	ADP	_	_	28	case	_	gold_pos=ADP|Lang=la|prpos=Xe|uppos=FW
+28	cappitulo	capitulum	NOUN	_	_	20	obl	_	gold_pos=NOUN|Lang=la|prpos=Xe|uppos=FW
 29	de	de	ADP	_	_	30	case	_	gold_pos=ADP|prpos=S|uppos=P
 30	justice	justice	NOUN	_	Number=Sing	28	flat	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 31	et	et	CCONJ	_	_	33	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-32	in	in	ADP	_	_	33	case	_	gold_pos=ADP|Lang=lat|prpos=Xe|uppos=FW
-33	cappitullo	capitulum	NOUN	_	_	28	conj	_	gold_pos=NOUN|Lang=lat|prpos=Xe|uppos=FW
+32	in	in	ADP	_	_	33	case	_	gold_pos=ADP|Lang=la|prpos=Xe|uppos=FW
+33	cappitullo	capitulum	NOUN	_	_	28	conj	_	gold_pos=NOUN|Lang=la|prpos=Xe|uppos=FW
 34	de	de	ADP	_	_	35	case	_	gold_pos=ADP|prpos=S|uppos=P
 35	terme	terme	NOUN	_	Number=Sing	33	flat	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 36	passé	passer	VERB	_	Tense=Past|VerbForm=Part	35	acl	_	gold_pos=VERB|prpos=Ge|SpaceAfter=No|uppos=VPP
@@ -2035,7 +2035,7 @@
 51	dit	dire	VERB	_	Tense=Past|VerbForm=Part	49	acl:relcl	_	gold_pos=VERB|prpos=Ge|uppos=VPP
 52	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	51	aux	_	gold_pos=AUX|prpos=Vuc|SpaceAfter=No|uppos=EJ
 53	,	,	PUNCT	_	_	49	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-54	silicet	scilicet	ADV	_	_	49	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+54	silicet	scilicet	ADV	_	_	49	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 55	.	.	PUNCT	_	_	10	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1425_Style_1_3_1_3_7
@@ -2319,8 +2319,8 @@
 # sent_id = 1425_Style_1_3_1_4_1
 # text = Si secundo, ou cellui qui a fait le délit a domicille que l' en sait ou non.
 # tags = latin
-1	Si	si	SCONJ	_	_	2	mark	_	gold_pos=SCONJ|Lang=lat|prpos=Xe|uppos=FW
-2	secundo	secundo	ADV	_	_	5	advmod	_	gold_pos=ADV|Lang=lat|prpos=Fw|SpaceAfter=No|uppos=Xe
+1	Si	si	SCONJ	_	_	2	mark	_	gold_pos=SCONJ|Lang=la|prpos=Xe|uppos=FW
+2	secundo	secundo	ADV	_	_	5	advmod	_	gold_pos=ADV|Lang=la|prpos=Fw|SpaceAfter=No|uppos=Xe
 3	,	,	PUNCT	_	_	2	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 4	ou	ou	CCONJ	_	_	5	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 5	cellui	celui	PRON	_	PronType=Dem	0	root	_	gold_pos=PRON|prpos=Pd|uppos=PRO
@@ -2330,7 +2330,7 @@
 9	le	le	DET	_	Definite=Def|PronType=Art	10	det	_	gold_pos=DET|prpos=Da|uppos=D
 10	délit	délit	NOUN	_	Number=Sing	8	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 11	a	à	ADP	_	_	12	case	_	gold_pos=ADP|prpos=S|uppos=P
-12	domicille	domicile	NOUN	_	Number=Sing	10	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+12	domicille	domicile	NOUN	_	Number=Sing	8	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 13	que	que	PRON	_	PronType=Rel	16	obj	_	gold_pos=PRON|prpos=Pr|uppos=WPRO
 14	l'	le	DET	_	Definite=Def|PronType=Art	15	det	_	gold_pos=DET|prpos=Da|uppos=D
 15	en	on	PRON	_	PronType=Prs	16	nsubj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
@@ -2583,7 +2583,7 @@
 11	prouchaine	prochain	ADJ	_	_	9	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
 12	en	en	ADP	_	ExtPos=ADJ	9	amod	_	gold_pos=ADP|prpos=S|uppos=P
 13	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	12	fixed	_	gold_pos=VERB|prpos=Ga|SpaceAfter=No|uppos=VG
-14	,	,	PUNCT	_	_	6	punct	_	gold_pos=PUNCT|join=left|Lang=lat|prpos=Fw|uppos=PON
+14	,	,	PUNCT	_	_	6	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 15	icellui	icelui	DET	_	PronType=Dem	16	det	_	gold_pos=DET|prpos=Dd|uppos=D
 16	adjournement	ajournement	NOUN	_	Number=Sing	18	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 17	soit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	18	aux:pass	_	gold_pos=AUX|prpos=Vuc|uppos=EJ
@@ -2616,9 +2616,9 @@
 43	dit	dit	ADJ	_	_	44	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
 44	lieu	lieu	NOUN	_	Number=Sing	40	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 45	comme	comme	SCONJ	_	_	46	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
-46	dessus	dessus	ADV	_	_	33	obl	_	gold_pos=ADV|prpos=Rg|SpaceAfter=No|uppos=ADV
+46	dessus	dessus	ADV	_	_	18	obl	_	gold_pos=ADV|prpos=Rg|SpaceAfter=No|uppos=ADV
 47	.	.	PUNCT	_	_	18	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
-48	Item	item	ADV	_	_	50	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=FW
+48	Item	item	ADV	_	_	50	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
 49	quant	quand	SCONJ	_	_	50	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 50	est	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	18	conj	_	gold_pos=AUX|prpos=Vuc|uppos=EJ
 51	de	de	ADP	_	_	52	mark	_	gold_pos=ADP|prpos=S|uppos=P
@@ -2672,9 +2672,9 @@
 32	que	que	SCONJ	_	_	33	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 33	dessus	dessus	ADV	_	_	31	advmod	_	gold_pos=ADV|prpos=Rg|SpaceAfter=No|uppos=ADV
 34	,	,	PUNCT	_	_	31	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-35	ut	ut	ADP	_	_	37	case	_	=|gold_pos=ADP|Lang=lat|prpos=Xe|uppos=FW
-36	primo	primo	ADV	_	_	37	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=FW
-37	precedenti	praecedo	VERB	_	_	31	obl	_	gold_pos=VERB|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+35	ut	ut	ADP	_	_	37	case	_	gold_pos=ADP|Lang=la|prpos=Xe|uppos=FW
+36	primo	primo	ADV	_	_	37	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|uppos=FW
+37	precedenti	praecedo	VERB	_	_	31	nmod	_	gold_pos=VERB|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 38	.	.	PUNCT	_	_	14	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1425_Style_1_3_1_4_10
@@ -2869,8 +2869,8 @@
 # text = Mais où cas qu' il n' y aurait XL jours d' espasse entre le premier adjournement et l' assise prouchaine ensuivant, lors pour recouvrer la deffaulte, fait l' en faire et continuer ses appeaulx par cinq assises et à la cinquième l' en fait jugier le banissement par IIII chevaliers.
 1	Mais	mais	CCONJ	_	_	30	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 2-3	où	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	4	obl	_	gold_pos=ADP|prpos=S|uppos=P
-3	le	le	DET	_	Definite=Def|PronType=Art	4	obl	_	gold_pos=DET|prpos=Da|uppos=D
+2	à	à	ADP	_	_	4	case	_	gold_pos=ADP|prpos=S|uppos=P
+3	le	le	DET	_	Definite=Def|PronType=Art	4	det	_	gold_pos=DET|prpos=Da|uppos=D
 4	cas	cas	NOUN	_	Number=Sing	30	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 5	qu'	que	SCONJ	_	_	9	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 6	il	il	PRON	_	PronType=Prs	9	expl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
@@ -2884,14 +2884,14 @@
 14	entre	entre	ADP	_	_	17	case	_	gold_pos=ADP|prpos=S|uppos=P
 15	le	le	DET	_	Definite=Def|PronType=Art	17	det	_	gold_pos=DET|prpos=Da|uppos=D
 16	premier	premier	ADJ	_	NumType=Ord	17	amod	_	gold_pos=ADJ|prpos=Mo|uppos=ADJNUM
-17	adjournement	ajournement	NOUN	_	Number=Sing	11	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+17	adjournement	ajournement	NOUN	_	Number=Sing	9	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 18	et	et	CCONJ	_	_	20	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 19	l'	le	DET	_	Definite=Def|PronType=Art	20	det	_	gold_pos=DET|prpos=Da|uppos=D
 20	assise	assise	NOUN	_	Number=Sing	17	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 21	prouchaine	prochain	ADJ	_	_	20	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
-22	ensuivant	ensuivant	ADJ	_	_	20	acl	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
+22	ensuivant	ensuivant	ADJ	_	_	20	amod	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
 23	,	,	PUNCT	_	_	9	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-24	lors	lors	ADV	_	_	26	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+24	lors	lors	ADV	_	_	30	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
 25	pour	pour	ADP	_	_	26	mark	_	gold_pos=ADP|prpos=S|uppos=P
 26	recouvrer	recouvrer	VERB	_	VerbForm=Inf	30	advcl	_	gold_pos=VERB|prpos=Vvn|uppos=VX
 27	la	le	DET	_	Definite=Def|PronType=Art	28	det	_	gold_pos=DET|prpos=Da|uppos=D
@@ -3040,7 +3040,7 @@
 # sent_id = 1425_Style_1_3_1_4_19
 # tags = latin
 # text = Respontio: ou ilz ont pechié contre la magesté royal dont je suis officier, ou non.
-1	Respontio	responsio	NOUN	_	_	0	root	_	gold_pos=NOUN|Lang=lat|prpos=FW|SpaceAfter=No|uppos=Xe
+1	Respontio	responsio	NOUN	_	_	0	root	_	gold_pos=NOUN|Lang=la|prpos=FW|SpaceAfter=No|uppos=Xe
 2	:	:	PUNCT	_	_	1	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 3	ou	ou	CCONJ	_	_	6	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 4	ilz	il	PRON	_	PronType=Prs	6	nsubj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
@@ -3062,8 +3062,8 @@
 # sent_id = 1425_Style_1_3_1_4_20
 # text = Si primo: je le doys jugier pour ce que je suis homme du roy et non ceulx d' Avignon, sinon, ou le roy peult avoir aucun prouffit en leur confiscation, etc., ou nul:
 # tags = latin
-1	Si	si	ADV	_	_	2	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=FW
-2	primo	primo	ADV	_	_	7	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+1	Si	si	ADV	_	_	2	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|uppos=FW
+2	primo	primo	ADV	_	_	7	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 3	:	:	PUNCT	_	_	7	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 4	je	je	PRON	_	PronType=Prs	7	nsubj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 5	le	il	PRON	_	PronType=Prs	7	obj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
@@ -3365,44 +3365,44 @@
 
 # sent_id = 1425_Style_1_4_1_1_3
 # text = Et en cas qu' il n' y ayroit adjournement en personne, il convient qu' il y en ait ung fait par contrainte par la forme et manière qui est dicte cy après en la lay apparente,
-1	Et	et	CCONJ	_	_	0	_	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-2	en	en	ADP	_	_	0	_	_	gold_pos=ADP|prpos=S|uppos=P
-3	cas	cas	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-4	qu'	que	SCONJ	_	_	0	_	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
-5	il	il	PRON	_	PronType=Prs	0	_	_	gold_pos=PRON|prpos=Pp|uppos=PRO
-6	n'	ne	ADV	_	_	0	_	_	gold_pos=ADV|prpos=Rp|uppos=NEG
-7	y	y	PRON	_	PronType=Prs	0	_	_	gold_pos=PRON|prpos=Pp|uppos=PRO
-8	ayroit	airer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	_	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
-9	adjournement	ajournement	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-10	en	en	ADP	_	_	0	_	_	gold_pos=ADP|prpos=S|uppos=P
-11	personne	personne	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
-12	,	,	PUNCT	_	_	0	_	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-13	il	il	PRON	_	PronType=Prs	0	_	_	gold_pos=PRON|prpos=Pp|uppos=PRO
-14	convient	convenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	_	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
-15	qu'	que	SCONJ	_	_	0	_	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
-16	il	il	PRON	_	PronType=Prs	0	_	_	gold_pos=PRON|prpos=Pp|uppos=PRO
-17	y	y	PRON	_	PronType=Prs	0	_	_	gold_pos=PRON|prpos=Pp|uppos=PRO
-18	en	en	PRON	_	PronType=Prs	0	_	_	gold_pos=PRON|prpos=Pp|uppos=PRO
-19	ait	avoir	VERB	_	VerbForm=Fin	0	_	_	gold_pos=VERB|prpos=Vuc|uppos=AJ
+1	Et	et	CCONJ	_	_	14	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
+2	en	en	ADP	_	_	3	case	_	gold_pos=ADP|prpos=S|uppos=P
+3	cas	cas	NOUN	_	Number=Sing	14	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+4	qu'	que	SCONJ	_	_	8	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
+5	il	il	PRON	_	PronType=Prs	8	expl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+6	n'	ne	ADV	_	_	8	advmod	_	gold_pos=ADV|prpos=Rp|uppos=NEG
+7	y	y	PRON	_	PronType=Prs	8	obl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+8	ayroit	airer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	acl	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
+9	adjournement	ajournement	NOUN	_	Number=Sing	8	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+10	en	en	ADP	_	_	11	case	_	gold_pos=ADP|prpos=S|uppos=P
+11	personne	personne	NOUN	_	Number=Sing	9	nmod	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
+12	,	,	PUNCT	_	_	3	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
+13	il	il	PRON	_	PronType=Prs	14	expl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+14	convient	convenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
+15	qu'	que	SCONJ	_	_	19	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
+16	il	il	PRON	_	PronType=Prs	19	expl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+17	y	y	PRON	_	PronType=Prs	19	obl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+18	en	en	PRON	_	PronType=Prs	19	obl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+19	ait	avoir	VERB	_	VerbForm=Fin	14	csubj	_	gold_pos=VERB|prpos=Vuc|uppos=AJ
 20	ung	un	DET	_	Definite=Ind	21	det	_	gold_pos=DET|prpos=Dn|uppos=D
-21	fait	fait	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-22	par	par	ADP	_	_	0	_	_	gold_pos=ADP|prpos=S|uppos=P
-23	contrainte	contrainte	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+21	fait	fait	NOUN	_	Number=Sing	19	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+22	par	par	ADP	_	_	23	case	_	gold_pos=ADP|prpos=S|uppos=P
+23	contrainte	contrainte	NOUN	_	Number=Sing	19	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 24	par	par	ADP	_	_	26	case	_	gold_pos=ADP|prpos=S|uppos=P
 25	la	le	DET	_	Definite=Def	26	det	_	gold_pos=DET|prpos=Da|uppos=D
-26	forme	forme	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-27	et	et	CCONJ	_	_	0	_	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-28	manière	manière	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-29	qui	qui	PRON	_	_	0	_	_	gold_pos=PRON|prpos=Pr|uppos=WPRO
-30	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	0	_	_	gold_pos=AUX|prpos=Vuc|uppos=EJ
-31	dicte	dire	VERB	_	Tense=Past|VerbForm=Part	0	_	_	gold_pos=VERB|prpos=Ge|uppos=VPP
-32	cy	ci	ADV	_	_	0	_	_	gold_pos=ADV|prpos=Rg|uppos=ADV
-33	après	après	ADV	_	_	0	_	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+26	forme	forme	NOUN	_	Number=Sing	19	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+27	et	et	CCONJ	_	_	28	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
+28	manière	manière	NOUN	_	Number=Sing	26	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+29	qui	qui	PRON	_	_	31	nsubj	_	gold_pos=PRON|prpos=Pr|uppos=WPRO
+30	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	31	aux:pass	_	gold_pos=AUX|prpos=Vuc|uppos=EJ
+31	dicte	dire	VERB	_	Tense=Past|VerbForm=Part	26	acl:relcl	_	gold_pos=VERB|prpos=Ge|uppos=VPP
+32	cy	ci	ADV	_	_	31	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+33	après	après	ADV	_	_	32	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
 34	en	en	ADP	_	_	36	case	_	gold_pos=ADP|prpos=S|uppos=P
 35	la	le	DET	_	Definite=Def	36	det	_	gold_pos=DET|prpos=Da|uppos=D
-36	lay	loi	NOUN	_	Number=Sing	0	_	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-37	apparente	apparent	ADJ	_	_	0	_	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
-38	,	,	PUNCT	_	_	0	_	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
+36	lay	loi	NOUN	_	Number=Sing	31	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+37	apparente	apparent	ADJ	_	_	36	amod	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
+38	,	,	PUNCT	_	_	14	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 
 # sent_id = 1425_Style_1_4_1_1_4
 # text = et aultrement n' y chiet amende.
@@ -3940,7 +3940,7 @@
 9	lay	loi	NOUN	_	Number=Sing	7	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 10	apparente	apparent	ADJ	_	_	9	amod	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
 11	,	,	PUNCT	_	_	2	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-12	po.	primo	ADV	_	_	13	advmod	_	Lang=lat|prpos=Rg
+12	po.	primo	ADV	_	_	13	advmod	_	Lang=la|prpos=Rg
 13	est	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	gold_pos=AUX|prpos=Vuc|uppos=EJ
 14	à	à	ADP	_	_	15	mark	_	gold_pos=ADP|prpos=S|uppos=P
 15	noter	noter	VERB	_	VerbForm=Inf	13	xcomp	_	gold_pos=VERB|prpos=Vvn|uppos=VX
@@ -4180,10 +4180,10 @@
 63	,	,	PUNCT	_	_	65	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 64	et	et	CCONJ	_	_	65	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 65	autieulx	autel	PRON	_	PronType=Ind	56	conj	_	gold_pos=PRON|prpos=Pi|uppos=PRO
-66	comme	comme	SCONJ	_	_	69	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
-67	terre	terre	NOUN	_	Number=Sing	69	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-68	seult	souloir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	69	aux	_	gold_pos=AUX|prpos=Vvc|uppos=MDJ
-69	rendre	rendre	VERB	_	VerbForm=Inf	65	acl	_	gold_pos=VERB|prpos=Vvn|uppos=VX
+66	comme	comme	SCONJ	_	_	68	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
+67	terre	terre	NOUN	_	Number=Sing	68	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+68	seult	souloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	65	acl	_	gold_pos=AUX|prpos=Vvc|uppos=MDJ
+69	rendre	rendre	VERB	_	VerbForm=Inf	68	xcomp	_	gold_pos=VERB|prpos=Vvn|uppos=VX
 70	et	et	CCONJ	_	_	71	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 71	porter	porter	VERB	_	VerbForm=Inf	69	conj	_	gold_pos=VERB|prpos=Vvn|SpaceAfter=No|uppos=VX
 72	;	;	PUNCT	_	_	79	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
@@ -4282,7 +4282,7 @@
 22	assises	assise	NOUN	_	Number=Plur	12	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCPL
 23	de	de	ADP	_	_	25	case	_	gold_pos=ADP|prpos=S|uppos=P
 24	tel	tel	ADJ	_	_	25	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
-25	lieu	lieu	NOUN	_	Number=Sing	22	obl	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
+25	lieu	lieu	NOUN	_	Number=Sing	22	nmod	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
 26	,	,	PUNCT	_	_	12	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 27	pour	pour	ADP	_	_	28	mark	_	gold_pos=ADP|prpos=S|uppos=P
 28	respondre	répondre	VERB	_	VerbForm=Inf	10	advcl	_	gold_pos=VERB|prpos=Vvn|uppos=VX
@@ -5005,7 +5005,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1425_Style_1_6_1_1_1
-# text = En tous aultres cas héréditaulx le sergent maine la partie et le recongnoissant sur les lieux contempcieulx, et en la présence de tous, lit la clameur et fait commandement de ressaisir. Et en cas de reffus adjourne la partie pour respondre sur son reffus. Et néantmoins prent l' éritage en la main du roy et baille à gouverner etc.
+# text = En tous aultres cas héréditaulx le sergent maine la partie et le recongnoissant sur les lieux contempcieulx, et en la présence de tous, lit la clameur et fait commandement de ressaisir. Et en cas de reffus adjourne la partie pour respondre sur son reffus. Et néantmoins prent l' éritage en la main du roy et baille à gouverner etc .
 1	En	en	ADP	_	_	4	case	_	gold_pos=ADP|prpos=S|uppos=P
 2	tous	tout	DET	_	PronType=Ind	4	det	_	gold_pos=DET|prpos=Di|uppos=D
 3	aultres	autre	ADJ	_	_	4	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
@@ -5070,7 +5070,8 @@
 61	baille	bailler	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	conj	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
 62	à	à	ADP	_	_	63	mark	_	gold_pos=ADP|prpos=S|uppos=P
 63	gouverner	gouverner	VERB	_	VerbForm=Inf	61	xcomp	_	gold_pos=VERB|prpos=Vvn|uppos=VX
-64	etc.	etc	ADV	_	_	8	punct	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+64	etc	etc	ADV	_	_	8	conj	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+65	.	.	PUNCT	_	_	8	punct	_	gold_pos=PUNCT|prpos=Fw|uppos=PON
 
 # sent_id = 1425_Style_1_7_1_1_1
 # text = Fourme d' adjournement en cas de marchié de bourse:
@@ -5088,7 +5089,7 @@
 # sent_id = 1425_Style_1_7_1_1_2
 # text = primo se le marchié est assis en diverses juridicions subgettes comme du roi de Arsseville et simillia, la clameur en doit estre faite au souverain, et est assavoir au bailli de Caux qui commettra ung commissaire pour estre son lieutenant et congnoistre de la cause en l' un d' iceulx lieux de XVe, en XVe, comme en siège de viconté.
 # tags = latin
-1	primo	primo	ADV	_	_	25	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=FW
+1	primo	primo	ADV	_	_	25	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|uppos=FW
 2	se	si	SCONJ	_	_	6	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 3	le	le	DET	_	Definite=Def|PronType=Art	4	det	_	gold_pos=DET|prpos=Da|uppos=D
 4	marchié	marché	NOUN	_	Number=Sing	6	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
@@ -5102,11 +5103,11 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	gold_pos=ADP|prpos=S|uppos=P
 13	le	le	DET	_	Definite=Def|PronType=Art	14	det	_	gold_pos=DET|prpos=Da|uppos=D
-14	roi	roi	NOUN	_	Number=Sing	9	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+14	roi	roi	NOUN	_	Number=Sing	9	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 15	de	de	ADP	_	_	16	case	_	gold_pos=ADP|prpos=S|uppos=P
 16	Arsseville	Arsseville	PROPN	_	Number=Sing	14	nmod	_	gold_pos=PROPN|prpos=Np|uppos=NPRS
 17	et	et	CCONJ	_	_	18	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-18	simillia	similis	PRON	_	_	14	conj	_	gold_pos=PRON|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+18	simillia	similis	PRON	_	_	14	conj	_	gold_pos=PRON|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 19	,	,	PUNCT	_	_	6	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 20	la	le	DET	_	Definite=Def|PronType=Art	21	det	_	gold_pos=DET|prpos=Da|uppos=D
 21	clameur	clameur	NOUN	_	Number=Sing	25	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
@@ -5266,7 +5267,7 @@
 19	marchant	marchand	NOUN	_	Number=Sing	14	obl	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
 20	,	,	PUNCT	_	_	14	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 21	et	et	CCONJ	_	_	24	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-22	lui	il	PRON	_	PronType=Prs	24	obj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+22	lui	il	PRON	_	PronType=Prs	24	iobj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 23	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	24	aux	_	gold_pos=AUX|prpos=Vvc|uppos=MDJ
 24	lyre	lire	VERB	_	VerbForm=Inf	14	conj	_	gold_pos=VERB|prpos=Vun|uppos=VX
 25	et	et	CCONJ	_	_	26	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
@@ -6189,7 +6190,7 @@
 4	délaiz	délai	NOUN	_	Number=Plur	2	conj	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCPL
 5	,	,	PUNCT	_	_	2	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 6	et	et	CCONJ	_	_	9	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-7	primo	primo	ADV	_	_	9	advmod	_	gold_pos=ADV|Lang=lat|prpos=Xe|uppos=FW
+7	primo	primo	ADV	_	_	9	advmod	_	gold_pos=ADV|Lang=la|prpos=Xe|uppos=FW
 8	de	de	ADP	_	_	9	case	_	gold_pos=ADP|prpos=S|uppos=P
 9	respit	répit	NOUN	_	Number=Sing	2	conj	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
 10	.	.	PUNCT	_	_	2	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
@@ -6639,7 +6640,7 @@
 24	amendast	amender	VERB	_	Number=Sing|Person=3|VerbForm=Fin	21	csubj	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
 25	son	son	DET	_	Poss=Yes	27	det	_	gold_pos=DET|prpos=Ds|uppos=DZ
 26	tart	tard	ADJ	_	_	27	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
-27	venir	venir	VERB	_	ExtPos=NOUN|VerbForm=Inf	24	xcomp	_	gold_pos=VERB|prpos=Vvn|SpaceAfter=No|uppos=VX
+27	venir	venir	VERB	_	VerbForm=Inf	24	xcomp	_	gold_pos=VERB|prpos=Vvn|SpaceAfter=No|uppos=VX
 28	:	:	PUNCT	_	_	21	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 
 # sent_id = 1425_Style_1_10_1_1_13
@@ -7152,7 +7153,7 @@
 
 # sent_id = 1425_Style_1_10_1_2_1
 # text = Nota. Que se R. a une foys prins respit, et depuis se actor et R. lui procèdent ensemble à la deuxième journée s' envoye respiter, actor débat et respont à ung aultre jour précédent comme dit est et fait adjourner R. pour advouer ou faillir à icellui respit.
-1	Nota	noto	VERB	_	_	0	root	_	gold_pos=VERB|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+1	Nota	noto	VERB	_	_	0	root	_	gold_pos=VERB|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 2	.	.	PUNCT	_	_	1	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
 3	Que	que	SCONJ	_	_	30	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 4	se	si	SCONJ	_	_	9	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
@@ -7181,7 +7182,7 @@
 27	respiter	répiter	VERB	_	VerbForm=Inf	26	xcomp	_	gold_pos=VERB|prpos=Vvn|SpaceAfter=No|uppos=VX
 28	,	,	PUNCT	_	_	9	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 29	actor	acteur	NOUN	_	Number=Sing	30	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-30	débat	débattre	NOUN	_	VerbForm=Fin	1	ccomp	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
+30	débat	débattre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
 31	et	et	CCONJ	_	_	32	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 32	respont	répondre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	30	conj	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
 33	à	à	ADP	_	_	36	case	_	gold_pos=ADP|prpos=S|uppos=P
@@ -7427,8 +7428,8 @@
 21	cry	cri	NOUN	_	Number=Sing	15	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 22	de	de	ADP	_	_	23	case	_	gold_pos=ADP|prpos=S|uppos=P
 23	haro	haro	NOUN	_	Number=Sing	21	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-24	prima	primus	ADJ	_	_	25	amod	_	gold_pos=ADJ|Lang=lat|prpos=Xe|uppos=FW
-25	die	dies	NOUN	_	_	21	obl	_	gold_pos=NOUN|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+24	prima	primus	ADJ	_	_	25	amod	_	gold_pos=ADJ|Lang=la|prpos=Xe|uppos=FW
+25	die	dies	NOUN	_	_	21	obl	_	gold_pos=NOUN|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 26	,	,	PUNCT	_	_	21	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 27	En	en	ADP	_	_	28	case	_	gold_pos=ADP|prpos=S|uppos=P
 28	marché	marché	NOUN	_	Number=Sing	15	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
@@ -7436,13 +7437,13 @@
 30	clameur	clameur	NOUN	_	Number=Sing	28	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 31	de	de	ADP	_	_	32	case	_	gold_pos=ADP|prpos=S|uppos=P
 32	bourse	bourse	NOUN	_	Number=Sing	30	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-33	clamanti	clamo	VERB	_	_	28	acl	_	gold_pos=VERB|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+33	clamanti	clamo	VERB	_	_	28	acl	_	gold_pos=VERB|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 34	,	,	PUNCT	_	_	15	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 35	En	en	ADP	_	_	36	case	_	gold_pos=ADP|prpos=S|uppos=P
 36	cas	cas	NOUN	_	Number=Sing	15	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 37	d'	de	ADP	_	_	38	case	_	gold_pos=ADP|prpos=S|uppos=P
 38	exécution	exécution	NOUN	_	Number=Sing	36	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-39	obliganti	obligo	VERB	_	_	36	acl	_	gold_pos=VERB|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+39	obliganti	obligo	VERB	_	_	36	acl	_	gold_pos=VERB|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 40	,	,	PUNCT	_	_	36	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 41	A	à	ADP	_	_	42	mark	_	gold_pos=ADP|prpos=S|uppos=P
 42	congnoistre	connaître	VERB	_	VerbForm=Inf	15	conj	_	gold_pos=VERB|prpos=Vvn|uppos=VX
@@ -7463,19 +7464,19 @@
 57	tesmoings	témoin	NOUN	_	Number=Plur	55	nmod	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCPL
 58	,	,	PUNCT	_	_	15	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 59	En	en	ADP	_	_	60	case	_	gold_pos=ADP|prpos=S|uppos=P
-60	cas	cas	NOUN	_	Number=Sing	15	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+60	cas	cas	NOUN	_	Number=Sing	15	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 61	de	de	ADP	_	_	62	case	_	gold_pos=ADP|prpos=S|uppos=P
 62	dolléance	doléance	NOUN	_	Number=Sing	60	nmod	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
 63	,	,	PUNCT	_	_	60	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-64	dolleinti	dolens	ADJ	_	_	60	acl	_	gold_pos=ADJ|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+64	dolleinti	dolens	ADJ	_	_	60	acl	_	gold_pos=ADJ|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 65	,	,	PUNCT	_	_	15	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 66	En	en	ADP	_	_	67	case	_	gold_pos=ADP|prpos=S|uppos=P
 67	appellacion	appellacion	NOUN	_	Number=Sing	15	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 68	de	de	ADP	_	_	69	case	_	gold_pos=ADP|prpos=S|uppos=P
 69	garantie	garantie	NOUN	_	Number=Sing	67	nmod	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCS
 70	,	,	PUNCT	_	_	67	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-71	in	in	ADP	_	_	72	mark	_	gold_pos=ADP|Lang=lat|prpos=Xe|uppos=FW
-72	appellanti	appello	VERB	_	_	67	acl	_	gold_pos=VERB|Lang=lat|prpos=Xe|SpaceAfter=No|uppos=FW
+71	in	in	ADP	_	_	72	mark	_	gold_pos=ADP|Lang=la|prpos=Xe|uppos=FW
+72	appellanti	appello	VERB	_	_	67	acl	_	gold_pos=VERB|Lang=la|prpos=Xe|SpaceAfter=No|uppos=FW
 73	.	.	PUNCT	_	_	2	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1425_Style_1_11_1_1_1
