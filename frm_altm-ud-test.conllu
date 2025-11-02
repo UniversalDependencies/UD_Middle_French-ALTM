@@ -1042,7 +1042,7 @@
 16	l'	le	DET	_	Definite=Def|PronType=Art	17	det	_	gold_pos=DET|prpos=Da|uppos=D
 17	adjournement	ajournement	NOUN	_	Number=Sing	15	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 18	et	et	CCONJ	_	_	20	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-19	en	en	ADP	_	PronType=Prs	20	case	_	gold_pos=ADP|prpos=S|uppos=P
+19	en	en	ADP	_	_	20	case	_	gold_pos=ADP|prpos=S|uppos=P
 20	povoir	pouvoir	NOUN	_	Number=Sing	17	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 21	de	de	ADP	_	_	23	case	_	gold_pos=ADP|prpos=S|uppos=P
 22	sa	son	DET	_	Poss=Yes	23	det	_	gold_pos=DET|prpos=Ds|uppos=DZ
@@ -2147,7 +2147,7 @@
 23	à	à	ADP	_	_	25	case	_	gold_pos=ADP|prpos=S|uppos=P
 24	les	le	DET	_	Definite=Def|PronType=Art	25	det	_	gold_pos=DET|prpos=Da|uppos=D
 25	aultres	autre	PRON	_	PronType=Ind	15	conj	_	gold_pos=PRON|prpos=Pi|uppos=PRO
-26	ensuivant	ensuivant	ADJ	_	Tense=Pres|VerbForm=Part	25	amod	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
+26	ensuivant	ensuivant	ADJ	_	_	25	amod	_	gold_pos=ADJ|prpos=Ag|SpaceAfter=No|uppos=ADJ
 27	,	,	PUNCT	_	_	11	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 28	sur	sur	ADP	_	_	29	case	_	gold_pos=ADP|prpos=S|uppos=P
 29	paine	peine	NOUN	_	Number=Sing	11	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
@@ -3222,7 +3222,7 @@
 8	bany	bannir	VERB	_	Tense=Past|VerbForm=Part	13	advcl	_	gold_pos=VERB|prpos=Ge|uppos=VPP
 9	sans	sans	ADP	_	_	10	case	_	gold_pos=ADP|prpos=S|uppos=P
 10	chevaliers	chevalier	NOUN	_	Number=Plur	8	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCPL
-11	sy	si	ADV	_	PronType=Prs	13	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+11	sy	si	ADV	_	_	13	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
 12	ne	ne	ADV	_	PronType=Neg	13	advmod	_	gold_pos=ADV|prpos=Rp|uppos=NEG
 13	vauldroit	valoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
 14	le	le	DET	_	Definite=Def|PronType=Art	15	det	_	gold_pos=DET|prpos=Da|uppos=D
@@ -3985,7 +3985,7 @@
 # text = Jasoit ce que la coustume dit qu' il convient que l' adjournement ait XV jours d' espace, toutes voyes par usage, stille actor peult faire faire son adjournement en viconté ou en bailliage selon la forme qui s' en suit:
 1	Jasoit	jà	ADV	_	ExtPos=SCONJ	6	mark	_	gold_pos=ADV|prpos=Rg|uppos=ADV
 2	ce	ce	PRON	_	PronType=Dem	1	fixed	_	gold_pos=PRON|prpos=Pd|uppos=PRO
-3	que	que	SCONJ	_	PronType=Rel	1	fixed	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
+3	que	que	SCONJ	_	_	1	fixed	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 4	la	le	DET	_	Definite=Def|PronType=Art	5	det	_	gold_pos=DET|prpos=Da|uppos=D
 5	coustume	coutume	NOUN	_	Number=Sing	6	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 6	dit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	advcl	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
@@ -4166,7 +4166,7 @@
 49	ans	an	NOUN	_	Number=Plur	41	conj	_	gold_pos=NOUN|prpos=Nc|SpaceAfter=No|uppos=NCPL
 50	,	,	PUNCT	_	_	36	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 51	et	et	CCONJ	_	_	54	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
-52	en	en	PRON	_	PronType=Prs	56	nmod	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+52	en	en	PRON	_	_	56	nmod	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 53	a	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	54	aux	_	gold_pos=AUX|prpos=Vuc|uppos=AJ
 54	cueilli	cueillir	VERB	_	Tense=Past|VerbForm=Part	36	conj	_	gold_pos=VERB|prpos=Ge|uppos=VPP
 55	les	le	DET	_	Definite=Def|PronType=Art	56	det	_	gold_pos=DET|prpos=Da|uppos=D
@@ -4187,7 +4187,7 @@
 70	et	et	CCONJ	_	_	71	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 71	porter	porter	VERB	_	VerbForm=Inf	69	conj	_	gold_pos=VERB|prpos=Vvn|SpaceAfter=No|uppos=VX
 72	;	;	PUNCT	_	_	79	punct	_	gold_pos=PUNCT|join=left|prpos=Fs|uppos=PONFP
-73	en	en	ADP	_	PronType=Prs	74	case	_	gold_pos=ADP|prpos=S|uppos=P
+73	en	en	ADP	_	_	74	case	_	gold_pos=ADP|prpos=S|uppos=P
 74	quoy	que	PRON	_	PronType=Rel	79	obl	_	gold_pos=PRON|prpos=Pr|uppos=WPRO
 75	le	le	DET	_	Definite=Def|PronType=Art	77	det	_	gold_pos=DET|prpos=Da|uppos=D
 76	dit	dit	ADJ	_	_	77	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
@@ -4472,7 +4472,7 @@
 # text = Et se pendant la journée du dit adjournement, le sergent treuve le dit adjourné il lui peult signiffier le dit adjournement de contrainte ès derrains cas.
 1	Et	et	CCONJ	_	_	20	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 2	se	si	SCONJ	_	_	13	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
-3	pendant	pendant	ADP	_	Tense=Pres|VerbForm=Part	5	case	_	gold_pos=ADP|prpos=S|uppos=P
+3	pendant	pendant	ADP	_	_	5	case	_	gold_pos=ADP|prpos=S|uppos=P
 4	la	le	DET	_	Definite=Def|PronType=Art	5	det	_	gold_pos=DET|prpos=Da|uppos=D
 5	journée	journée	NOUN	_	Number=Sing	13	obl	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 6-7	du	_	_	_	_	_	_	_	_
@@ -4823,7 +4823,7 @@
 65	qui	qui	PRON	_	PronType=Rel	67	nsubj	_	gold_pos=PRON|prpos=Pr|uppos=WPRO
 66	y	y	PRON	_	PronType=Prs	67	obl	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 67	escherront	échoir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	64	acl:relcl	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
-68	pendant	pendant	ADP	_	Tense=Pres|VerbForm=Part	72	case	_	gold_pos=ADP|prpos=S|uppos=P
+68	pendant	pendant	ADP	_	_	72	case	_	gold_pos=ADP|prpos=S|uppos=P
 69	les	le	DET	_	Definite=Def|PronType=Art	72	det	_	gold_pos=DET|prpos=Da|uppos=D
 70	dits	dit	ADJ	_	_	72	amod	_	gold_pos=ADJ|prpos=Ag|uppos=ADJ
 71	XL.	quarante	NUM	_	NumType=Card	72	nummod	_	gold_pos=NUM|prpos=Mc|uppos=ADJNUM
@@ -5780,7 +5780,7 @@
 7	six	six	NUM	_	NumType=Card	3	nmod	_	gold_pos=NUM|prpos=Mc|uppos=NUM
 8	ou	ou	CCONJ	_	_	10	cc	_	gold_pos=CCONJ|prpos=Cc|uppos=CONJO
 9	de	de	ADP	_	_	10	case	_	gold_pos=ADP|prpos=S|uppos=P
-10	sept	sept	NUM	_	NumType=Card|PronType=Ind	7	conj	_	gold_pos=NUM|prpos=Mc|SpaceAfter=No|uppos=NUM
+10	sept	sept	NUM	_	NumType=Card	7	conj	_	gold_pos=NUM|prpos=Mc|SpaceAfter=No|uppos=NUM
 11	,	,	PUNCT	_	_	3	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 12	il	il	PRON	_	PronType=Prs	13	nsubj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 13	face	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	gold_pos=VERB|prpos=Vvc|uppos=VJ
@@ -6295,7 +6295,7 @@
 16	assignacion	assignation	NOUN	_	Number=Sing	14	conj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
 17	de	de	ADP	_	_	18	case	_	gold_pos=ADP|prpos=S|uppos=P
 18	cause	cause	NOUN	_	Number=Sing	16	nmod	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-19	que	que	SCONJ	_	PronType=Rel	21	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
+19	que	que	SCONJ	_	_	21	mark	_	gold_pos=SCONJ|prpos=Cs|uppos=CONJS
 20	ce	ce	PRON	_	PronType=Dem	21	nsubj	_	gold_pos=PRON|prpos=Pd|uppos=PRO
 21	soit	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	14	acl	_	gold_pos=VERB|prpos=Vuc|SpaceAfter=No|uppos=EJ
 22	,	,	PUNCT	_	_	14	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
@@ -6366,7 +6366,7 @@
 42	,	,	PUNCT	_	_	25	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 43	le	le	DET	_	Definite=Def|PronType=Art	44	det	_	gold_pos=DET|prpos=Da|uppos=D
 44	crieur	crieur	NOUN	_	Number=Sing	46	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-45	l'	il	DET	_	PronType=Prs	46	obj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
+45	l'	il	PRON	_	PronType=Prs	46	obj	_	gold_pos=PRON|prpos=Pp|uppos=PRO
 46	amende	amender	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	advcl	_	gold_pos=VERB|prpos=Vvc|SpaceAfter=No|uppos=VJ
 47	:	:	PUNCT	_	_	3	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
 
