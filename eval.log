@@ -1,0 +1,51 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Middle_French-ALTM:
+commit b2dd3095384eea9901d8093f54e5b7aca20059c9
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:17:12 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'frm_altm'
+Language code (from CoNLL-U file name) = 'frm'
+Found the following data files: frm_altm-ud-test.conllu
+Size: counted 7084 of 7084 words (nodes).
+Size: min(0, log((N/1000)**2)) = 3.91567743984117.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 13 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 4221 out of 7084 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 30 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang frm --max-err=10 UD_Middle_French-ALTM/frm_altm-ud-test.conllu
+[Line 4 Sent 1425_Style_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 11 Sent 1425_Style_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'plaide' lacks the 'Mood' feature
+[Line 100 Sent 1425_Style_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'cesse' lacks the 'Mood' feature
+[Line 118 Sent 1425_Style_1_2_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 122 Sent 1425_Style_1_2_1_1_1]: [L3 Warning pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 131 Sent 1425_Style_1_2_1_1_2]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 147 Sent 1425_Style_1_2_1_1_2]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 156 Sent 1425_Style_1_2_1_1_2]: [L3 Warning verbform-fin-without-mood] Finite verb 'sont' lacks the 'Mood' feature
+[Line 176 Sent 1425_Style_1_2_1_1_3]: [L3 Warning verbform-fin-without-mood] Finite verb 'parlerons' lacks the 'Mood' feature
+[Line 183 Sent 1425_Style_1_2_1_1_3]: [L3 Warning verbform-fin-without-mood] Finite verb 'sont' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 741
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.283426184172679) = 0.104972660804696
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.764705882352941) = 0.0849673202614379
+(weight=0.111111111111111) * (score{udeprels}=0.810810810810811) = 0.0900900900900901
+(TOTAL score=0.50916587362536) * (availability=1) * (validity=1) = 0.50916587362536
+STARS = 2.5
+UD_Middle_French-ALTM	0.50916587362536	2.5
