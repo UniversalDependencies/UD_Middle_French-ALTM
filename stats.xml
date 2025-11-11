@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>217</sentences><tokens>6953</tokens><words>7084</words><fused>131</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>217</sentences><tokens>6953</tokens><words>7084</words><fused>131</fused></test>
+  </size>
+  <lemmas unique="747" /><!-- le, ,, de, et, être, il, en, à, que, ., faire, ou, si, ce, par -->
+  <forms unique="1155" /><!-- ,, et, de, le, en, à, ., la, est, que, il, ou, l', les, se -->
+  <fusions unique="14" /><!-- au, du, des, aux, dez, desquieulx, auquel, ou, ès, aus, ausquelles, duquel, es, où -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">258</tag><!-- dit, premier, prochain, tel, criminel, nouveau, autre, présent, deuxième, apparent -->
+    <tag name="ADP">1026</tag><!-- de, à, en, par, pour, sur, contre, après, selon, comme -->
+    <tag name="ADV">402</tag><!-- ne, item, etc, pas, non, si, après, plus, ainsi, jà -->
+    <tag name="AUX">288</tag><!-- être, devoir, avoir, pouvoir -->
+    <tag name="CCONJ">449</tag><!-- et, ou, ni, mais, car, soit -->
+    <tag name="DET">840</tag><!-- le, son, icelui, un, ce, tout, autre, aucun, mon, quel -->
+    <tag name="NOUN">1249</tag><!-- ajournement, cas, répit, jour, partie, sergent, assise, lieu, défaut, cause -->
+    <tag name="NUM">24</tag><!-- quarante, quatre, deux, neuf, trois, cinq, dix, huit, quinze, sept -->
+    <tag name="PRON">674</tag><!-- il, ce, qui, que, on, se, je, celui, y, en -->
+    <tag name="PROPN">61</tag><!-- Normandie, France, R, G, R., Avignon, Dame, Notre, A, Arsseville -->
+    <tag name="PUNCT">646</tag><!-- ,, ., ;, :, § -->
+    <tag name="SCONJ">249</tag><!-- que, si, comme, quand, puisque, sinon -->
+    <tag name="VERB">918</tag><!-- faire, être, dire, avoir, ajourner, requérir, venir, convenir, assavoir, prendre -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="26">
+    <feat name="Definite" value="Def" upos="DET">571</feat><!-- le, la, les, l', l, lez, -l', uns -->
+    <feat name="Definite" value="Ind" upos="DET">35</feat><!-- ung, une, un, unes, ungs -->
+    <feat name="ExtPos" value="ADJ" upos="ADP">6</feat><!-- en -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV">7</feat><!-- jusques, quant, affin, de, hors -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,PRON,VERB">17</feat><!-- toutes, c', de, non, c, cy, est, néant, à -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,VERB">27</feat><!-- pour, jasoit, afin, selon, si, supposé, tost, Après, affin, considéré -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,VERB">270</feat><!-- sont, adjournemens, assises, jours, personnes, deffaulx, lettres, chevaliers, doivent, lieux -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PROPN,VERB">1665</feat><!-- est, cas, adjournement, respit, a, partie, doit, sergent, jour, cause -->
+    <feat name="NumType" value="Card" upos="ADJ,NUM">27</feat><!-- IIII, XL., deux, XL, deu, quatre, troys, IX, Neuf, X. -->
+    <feat name="NumType" value="Ord" upos="ADJ,PRON">32</feat><!-- premier, deuxième, première, XVe, deuxiesme, cinquième, deuxieme, prémier, second -->
+    <feat name="Person" value="1" upos="AUX,VERB">36</feat><!-- suis, parlerons, adjourne, adjournons, doy, doys, puis, avoye, ay, certiffions -->
+    <feat name="Person" value="2" upos="AUX,VERB">6</feat><!-- oés, adjourniez, fachiez, fustes -->
+    <feat name="Person" value="3" upos="AUX,VERB">589</feat><!-- est, a, doit, soit, sera, sont, peult, convient, fait, aura -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">101</feat><!-- son, sa, leurs, ma, ses, nostre, leur, mon, mes, siens -->
+    <feat name="PronType" value="Art" upos="DET">603</feat><!-- le, la, les, l', ung, une, un, l, lez, -l' -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">170</feat><!-- ce, icellui, c', cellui, ceulx, ceste, iceulx, icelle, cil, icelles -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">116</feat><!-- aultre, aucun, tel, aultres, tous, toutes, quelque, nul, plusieurs, autre -->
+    <feat name="PronType" value="Int" upos="DET">7</feat><!-- quel, quelle -->
+    <feat name="PronType" value="Neg" upos="ADV">101</feat><!-- ne, n', pas, point, non, mie -->
+    <feat name="PronType" value="Prs" upos="PRON">373</feat><!-- il, en, lui, le, y, je, s', se, ilz, nous -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">137</feat><!-- qui, que, qu', lequel, dont, ou, laquelle, quoy, lesquels, quel -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">228</feat><!-- fait, dit, prins, faicte, adjourné, appellé, esté, tenu, apporté, fais -->
+    <feat name="Tense" value="Pres" upos="VERB">22</feat><!-- suivant, demourant, contenant, disant, séant, Requérant, adressans, complaingnant, estant, reffusans -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">633</feat><!-- est, a, doit, soit, sera, sont, peult, convient, fait, aura -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">318</feat><!-- faire, adjourner, assavoir, estre, noter, avoir, venir, dire, amender, respondre -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">250</feat><!-- fait, dit, prins, faicte, suivant, adjourné, appellé, esté, tenu, apporté -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="32">
+    <dep name="acl">73</dep>
+    <dep name="acl:relcl">121</dep>
+    <dep name="advcl">177</dep>
+    <dep name="advmod">333</dep>
+    <dep name="amod">219</dep>
+    <dep name="appos">9</dep>
+    <dep name="aux">124</dep>
+    <dep name="aux:pass">118</dep>
+    <dep name="case">907</dep>
+    <dep name="cc">442</dep>
+    <dep name="ccomp">44</dep>
+    <dep name="conj">424</dep>
+    <dep name="cop">45</dep>
+    <dep name="csubj">29</dep>
+    <dep name="det">836</dep>
+    <dep name="discourse">1</dep>
+    <dep name="dislocated">4</dep>
+    <dep name="expl">64</dep>
+    <dep name="fixed">75</dep>
+    <dep name="flat">10</dep>
+    <dep name="iobj">31</dep>
+    <dep name="mark">349</dep>
+    <dep name="nmod">266</dep>
+    <dep name="nsubj">490</dep>
+    <dep name="nummod">21</dep>
+    <dep name="obj">306</dep>
+    <dep name="obl">574</dep>
+    <dep name="orphan">7</dep>
+    <dep name="punct">646</dep>
+    <dep name="root">217</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">121</dep>
+  </deps>
+</treebank>
