@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Middle_French-ALTM:
-commit b2dd3095384eea9901d8093f54e5b7aca20059c9
+commit 02aa6ea3259ca9ed2d89557f94c7d2ec878882c5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 15:17:12 2025 +0100
+Date:   Tue Nov 11 20:17:13 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'frm_altm'
 Language code (from CoNLL-U file name) = 'frm'
@@ -25,17 +25,17 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang frm --max-err=10 UD_Middle_French-ALTM/frm_altm-ud-test.conllu
-[Line 4 Sent 1425_Style_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
-[Line 11 Sent 1425_Style_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'plaide' lacks the 'Mood' feature
-[Line 100 Sent 1425_Style_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'cesse' lacks the 'Mood' feature
-[Line 118 Sent 1425_Style_1_2_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
-[Line 122 Sent 1425_Style_1_2_1_1_1]: [L3 Warning pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 131 Sent 1425_Style_1_2_1_1_2]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
-[Line 147 Sent 1425_Style_1_2_1_1_2]: [L3 Warning verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
-[Line 156 Sent 1425_Style_1_2_1_1_2]: [L3 Warning verbform-fin-without-mood] Finite verb 'sont' lacks the 'Mood' feature
-[Line 176 Sent 1425_Style_1_2_1_1_3]: [L3 Warning verbform-fin-without-mood] Finite verb 'parlerons' lacks the 'Mood' feature
-[Line 183 Sent 1425_Style_1_2_1_1_3]: [L3 Warning verbform-fin-without-mood] Finite verb 'sont' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
+[Line 4 Sent 1425_Style_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 11 Sent 1425_Style_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'plaide' lacks the 'Mood' feature
+[Line 100 Sent 1425_Style_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'cesse' lacks the 'Mood' feature
+[Line 118 Sent 1425_Style_1_2_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 122 Sent 1425_Style_1_2_1_1_1]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 131 Sent 1425_Style_1_2_1_1_2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 147 Sent 1425_Style_1_2_1_1_2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'est' lacks the 'Mood' feature
+[Line 156 Sent 1425_Style_1_2_1_1_2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'sont' lacks the 'Mood' feature
+[Line 176 Sent 1425_Style_1_2_1_1_3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'parlerons' lacks the 'Mood' feature
+[Line 183 Sent 1425_Style_1_2_1_1_3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'sont' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 741
 *** PASSED ***
 Validity: 1
